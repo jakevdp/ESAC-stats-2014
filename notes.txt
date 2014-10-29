@@ -1,0 +1,7 @@
+TODO list for next time (29 Oct 2014)
+
+- Likelihood lecture: change cost function to "Absolute Deviation" rather than "Least Absolute Deviation"
+
+- Bayesian Lecture: Motivate MCMC (perhaps plot 2D posterior first, but then talk about curse of dimensionality)
+
+- MCMC motivation: add a graphical description of the process, and perhaps an animation
