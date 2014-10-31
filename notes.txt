@@ -5,3 +5,31 @@ TODO list for next time (29 Oct 2014)
 - Bayesian Lecture: Motivate MCMC (perhaps plot 2D posterior first, but then talk about curse of dimensionality)
 
 - MCMC motivation: add a graphical description of the process, and perhaps an animation
+
+- Model Validation: 04.3 does not tell a compelling story! This section needs a lot of work. Ideas:
+
+
+Model Validation:
+
+Motivating Cross-validation -- digits
+
+- Start w/ K Neighbors with no test set: "perfect" classification
+- Next do a single train/test split... better, but we lose some data
+- Introduce idea of holdout/K-fold cross-validation
+- Show cross_val_score and GridSearch
+
+Unbalanced Data: accuracy is not what you want!
+
+- Show an unbalanced dataset
+- Show a 95% accurate estimator... y_pred = 0
+- Introduce precision (1 - contamination) and recall (completeness)
+- Show how these can be used within cross_val_score & GridSearch
+
+Cross-val works on regression problems too!
+
+- Show on ??
+
+
+Bias-Variance Tradeoff & Learning Curves
+
+- Move current material to a new notebook.
